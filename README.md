@@ -49,19 +49,29 @@ In the ``consumer`` project, we configure the same dependencies and properties. 
 ## Getting Started
 
 1. Clone this repository on your local machine:
-- ``git clone 'https://github.com/matheuslara01/kafka-springboot.git'``
+  ```sh
+   git clone 'https://github.com/matheuslara01/kafka-spring-boot.git'
+  ```
 
 2. Navigate to the project directory:
-- ``cd kafka-springboot``
+  ```sh
+   cd kafka-springboot
+  ```
 
 3. Run the following command to build and run the project:
-- ``docker-compose up -d``
+  ```sh
+  docker-compose up -d
+  ```
 
 4. To check running containers:
-- ``docker ps``
+  ```sh
+  docker ps
+  ```
 
 5. The Kafdrop interface will be accessible at:
-- ``localhost:19000``
+  ```sh
+  localhost:19000
+  ```
 
 ## Running the example
 
